@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container-fluid py-4 bg-light" style="height: 100vh;">
+      <nav class="navbar bg-body-tertiary container">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1">Navbar</span>
+        </div>
+      </nav>
+
+      <div class="container py-4 bg-light">
+        <div class="row">
+          
+          <div class="col-lg-3">
+            <div class="card shadow-sm mb-4">
+              <div class="card-body text-center">
+                <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px; font-size: 2rem;">
+                  JP
+                </div>
+                <h5 class="mb-0">Juan Pérez</h5>
+                <p class="text-muted small">Cliente Corporativo</p>
+              </div>
+              <div class="card-body border-top">
+                <h6 class="card-subtitle mb-3 text-muted small fw-bold text-uppercase">Contacto</h6>
+                <p class="mb-1 small"><strong>Email:</strong> <br> juan.perez@empresa.com</p>
+                <p class="mb-1 small"><strong>Teléfono:</strong> <br> +56 9 8765 4321</p>
+                <p class="mb-0 small"><strong>Ubicación:</strong> <br> Santiago, Chile</p>
+              </div>
+              <div class="card-body border-top bg-light">
+                <h6 class="card-subtitle mb-2 text-muted small fw-bold text-uppercase">Datos de Facturación</h6>
+                <div class="p-2 border rounded bg-white">
+                  <small class="d-block text-muted">Nº de Cuenta:</small>
+                  <code class="text-dark">ES12 3456 7890 1234</code>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-9">
+            
+            <div class="row mb-4">
+              <div class="col-md-4">
+                <div class="card border-0 border-start border-primary border-4 shadow-sm">
+                  <div class="card-body">
+                    <h6 class="text-muted small fw-bold">Proyectos en Curso</h6>
+                    <h3 class="mb-0">3</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 border-start border-warning border-4 shadow-sm">
+                  <div class="card-body">
+                    <h6 class="text-muted small fw-bold">Pendientes</h6>
+                    <h3 class="mb-0">1</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 border-start border-success border-4 shadow-sm">
+                  <div class="card-body">
+                    <h6 class="text-muted small fw-bold">Completados</h6>
+                    <h3 class="mb-0">12</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <div class="card shadow-sm h-100">
+                  <div class="card-header bg-white py-3 d-flex justify-content-between align-items-center">
+                    <h6 class="mb-0 fw-bold">Tareas (To-Do)</h6>
+                    <button class="btn btn-sm btn-outline-primary">+ Nueva</button>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-check mb-3">
+                      <input class="form-check-input" type="checkbox" id="t1">
+                      <label class="form-check-label small" for="t1">Enviar contrato firmado por correo</label>
+                    </div>
+                    <div class="form-check mb-3">
+                      <input class="form-check-input" type="checkbox" id="t2">
+                      <label class="form-check-label small" for="t2">Revisar propuesta gráfica de logo</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="t3">
+                      <label class="form-check-label small text-decoration-line-through text-muted" for="t3">Llamada de cortesía inicial</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 mb-4">
+                <div class="card shadow-sm h-100">
+                  <div class="card-header bg-white py-3">
+                    <h6 class="mb-0 fw-bold">Próximos Eventos</h6>
+                  </div>
+                  <div class="list-group list-group-flush">
+                    <div class="list-group-item">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h6 class="mb-1 small fw-bold text-primary">Videoconferencia Mensual</h6>
+                        <small class="text-muted">14:00</small>
+                      </div>
+                      <p class="mb-1 small">Plataforma: Google Meet</p>
+                    </div>
+                    <div class="list-group-item">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h6 class="mb-1 small fw-bold text-danger">Reunión Presencial</h6>
+                        <small class="text-muted">Mañana</small>
+                      </div>
+                      <p class="mb-1 small">Lugar: Oficina Central (Sala A)</p>
+                    </div>
+                    <div class="list-group-item">
+                      <div class="d-flex w-100 justify-content-between">
+                        <h6 class="mb-1 small fw-bold">Llamada de Seguimiento</h6>
+                        <small class="text-muted">22 Abr</small>
+                      </div>
+                      <p class="mb-1 small">Revisión de presupuesto final.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> </div>
+        </div>
+      </div>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
