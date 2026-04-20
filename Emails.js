@@ -1,4 +1,4 @@
-class CRM_EMAIL{
+class CRM_Email {
 
   /**
    * Busca todos los correos electrónicos de un remitente específico.
